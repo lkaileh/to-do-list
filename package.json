@@ -8,9 +8,9 @@
   "engines":{
     "node": ">=4.0.0"
   },
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "ejs": "2.4.1",
