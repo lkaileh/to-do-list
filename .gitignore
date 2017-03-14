@@ -6,6 +6,5 @@ npm-debug.log
 *.env
 *.dev
 .DS_Store
-bower_components
 
 
