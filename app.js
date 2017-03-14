@@ -1,5 +1,7 @@
+
+
 angular.module('ngTodos', [])
-.controller('todoController', function($scope){
+.controller('todoController', function($scope) {
   $scope.todos = [];
 
   $scope.addTodo = function () {
