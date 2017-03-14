@@ -5,6 +5,13 @@ app.set('port', 3000);
 
 app.use(express.static(__dirname));
 
+var db_config = {
+    host: 'us-cdbr-iron-east-03.cleardb.net',
+    user: 'b4a3bc0c9cb84f',
+    password: '9397b521',
+    database: 'heroku_5479819faf5a4e1'
+};
+
  //app.get('/', function(request, response) {
    //response.render('app');
  //});
